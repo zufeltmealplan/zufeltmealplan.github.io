@@ -1,0 +1,65 @@
+body{
+	text-align: center;
+	background: url(../images/food.jpg) no-repeat fixed 0% 25% / cover;
+	color: #F7C14E;
+}
+
+a{
+	color: #F7C14E;
+	text-decoration: none;
+	border-bottom: 1px dotted dimgray;
+}
+
+h1{
+	color: #E3D171;
+	font-weight: bolder;
+}
+
+h2{
+	color: #E3D171;
+}
+
+.intro{
+	padding: 20px;
+	margin-bottom: 10px;
+	background: rgba(0, 0, 0, 0.6)
+}
+
+.day{
+	min-height: 100px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	background: rgba(0, 0, 0, 0.6)
+}
+
+.monday{
+}
+
+.tuesday{
+}
+
+.wednesday{
+}
+
+.thursday{
+}
+
+.friday{
+}
+
+@media (min-width: 992px){
+/*	.tuesday{
+		margin-left: 5px;
+	}
+	.thursday{
+		margin-left: 5px;
+	}*/
+/*	.saturday{
+	border-bottom: 1px dotted darkslateblue;*/
+	/*margin-left: 5px;*/
+	/*}*/
+}
+
+/*.sunday{
+	border-bottom: 1px dotted darkslateblue;
+}*/
