@@ -15,20 +15,34 @@ a{
 	border-bottom: none;
 }
 
-h1, h2{
+h1{
 	color: #E3D171;
-	font-size: 1.5em;
-	margin: 0px;
+	font-weight: bolder;
+	font-size: 2em;
 }
 
-/*.navbar-toggle{
-	margin-top: 30px;
+h2{
+	color: #E3D171;
+}
+
+/*.header{
+	position: fixed;
+	min-height: 200px;
+	top:0px;
 }*/
 
-/*.navbar-inverse{
-	min-height: 100px;
+/*.intro{
+	padding: 20px;
+	margin-bottom: 10px;
+	background: rgba(0, 0, 0, 0.6)
 }
 */
+
+button{
+	position: relative;
+	display: inline-block;
+}
+
 .day{
 	min-height: 100px;
 	padding-bottom: 5px;
@@ -37,17 +51,5 @@ h1, h2{
 }
 
 .container{
-	padding-top: 70px;
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-	.container{
-	padding-top: 120px;
-	}
-}
-
-@media (min-width: 888px){
-	.container{
-	padding-top: 70px;
-	}
+	padding-top: 200px;
 }
