@@ -1,43 +1,55 @@
 body{
 	text-align: center;
-	background: url(../images/food.jpg) no-repeat fixed 0% 25% / cover;
-	color: #F7C14E;
+	background: url(../images/b16.png) repeat fixed;
+	color: #000000;
 	position: relative;
 }
 
 a{
-	color: #F7C14E;
+	color: #000000;
 	text-decoration: none;
-	border-bottom: 1px dotted dimgray;
+	border-bottom: 1px dotted #ffffff;
 }
 
 .navbar a{
 	border-bottom: none;
 }
 
-h1, h2{
-	color: #E3D171;
+h1{
+	color: #EB5433;
 	font-size: 1.5em;
 	margin: 0px;
 }
 
-/*.navbar-toggle{
-	margin-top: 30px;
-}*/
-
-/*.navbar-inverse{
-	min-height: 100px;
+h2{
+	color: #F1953A;
+	font-size: 1.5em;
+	padding-top: 10px;
 }
-*/
+
+#saturday h2{
+	color: #EB5433;
+}
+
 .day{
 	min-height: 100px;
 	padding-bottom: 5px;
 	margin-bottom: 10px;
-	background: rgba(0, 0, 0, 0.6)
+	background: rgba(0, 0, 0, 0.5)
 }
 
-.container{
-	padding-top: 70px;
+@media (min-width: 992px){
+	.day{
+		margin-right: 10px;
+		max-width: 475px;
+	}
+}
+
+@media (min-width: 1200px){
+	.day{
+		margin-right: 10px;
+		max-width: 575px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 992px){
