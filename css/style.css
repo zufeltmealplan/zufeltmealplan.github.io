@@ -1,12 +1,12 @@
 body{
 	text-align: center;
 	background: url(../images/b16.png) repeat fixed;
-	color: #000000;
+	color: #F5E8FF;
 	position: relative;
 }
 
 a{
-	color: #000000;
+	color: #F5E8FF;
 	text-decoration: none;
 	border-bottom: 1px dotted #ffffff;
 }
@@ -16,19 +16,19 @@ a{
 }
 
 h1{
-	color: #EB5433;
+	color: #947579;
 	font-size: 1.5em;
 	margin: 0px;
 }
 
 h2{
-	color: #F1953A;
+	color: #6D435A;
 	font-size: 1.5em;
 	padding-top: 10px;
 }
 
-#saturday h2{
-	color: #EB5433;
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #F5E8FF;
 }
 
 .day{
