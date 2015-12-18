@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+	background: url(../images/b16.png) repeat fixed;
+	color: #C5A436;
+	position: relative;
+}
+
+a{
+	color: #C5A436;
+	text-decoration: none;
+	border-bottom: 1px dotted #ffffff;
+}
+
+.navbar a{
+	border-bottom: none;
+}
+
+h1{
+	color: #992114;
+	font-size: 1.5em;
+	margin: 0px;
+}
+
+h2{
+	color: #992114;
+	font-size: 1.5em;
+	padding-top: 10px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #992114;
+}
+
+.day{
+	min-height: 100px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	background: rgba(24, 49, 18, 0.6)
+}
+
+@media (min-width: 992px){
+	.day{
+		margin-right: 10px;
+		max-width: 475px;
+	}
+}
+
+@media (min-width: 1200px){
+	.day{
+		margin-right: 10px;
+		max-width: 575px;
+	}
+}
